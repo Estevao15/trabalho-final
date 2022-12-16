@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.historias {
+  font-family: Arial;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  padding: 20px;
+}
+
+.list a {
+  padding: 10px;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.conteudo {
+  margin: 15px;
+  padding: 15px;
+  text-align: center;
+}
+
+.personagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.personagem {
+  margin: 10px;
+}
+
+.personagem img {
+  width: 200px;
+  height: 250px;
+}
+
+.sobre {
+  margin: 15px;
+  padding: 15px;
+}
+
+.sobre p {
+  line-height: 2;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 15px;
+}
